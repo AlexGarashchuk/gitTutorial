@@ -20,3 +20,9 @@
     padding-bottom: 4rem;
     line-height: 1.5;
 }
+.footer-social__wrapper{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20rem;
+}

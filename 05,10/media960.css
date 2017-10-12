@@ -1,5 +1,5 @@
 @media(max-width:960px)
-{.body{
+{.cnt{
    width: 100%;
    height: auto;
     }
@@ -36,5 +36,8 @@
         height: auto;
         margin: 0;
         padding: 0;
+    }
+    .footer-social__wrapper{
+        padding-top: 5rem;
     }
 }

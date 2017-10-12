@@ -1,0 +1,12 @@
+.content-page2{
+    padding-top: 10rem;
+}
+.image-box{
+    display: flex;
+    justify-content: center;
+}
+.content-box-second__border{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
