@@ -1,0 +1,72 @@
+.search-hover{
+    position: absolute;
+    z-index: 999;
+    background: rgba(255,255, 255, 0.85);
+    display: none;*/
+    width: 85%;
+    height: 50%;
+    margin: 0 auto;
+}
+.search-hover__wrap{
+  margin: 100px auto;
+  width: 80%;
+  height: 50px;
+}
+.main{
+  width: 100%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.main input#search{
+  width: 100%;
+  height: 50px;
+  border:none;
+  border-bottom: 5px solid #000;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+transition: background .55s ease;
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    background: url(img/strainer-or-magnifying-tool_icon-icons.com_74331.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin:0.5rem auto 0.5rem 0.5rem;
+}
+.search-history{
+    width: 50%;
+    margin: 2rem auto;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

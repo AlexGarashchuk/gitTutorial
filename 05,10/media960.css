@@ -1,0 +1,40 @@
+@media(max-width:960px)
+{.body{
+   width: 100%;
+   height: auto;
+    }
+.wrapper{
+   width: 100%;
+   height: auto;
+    }
+.content{
+   width: 100%;
+   height: auto;
+   justify-content: center;
+    }
+.content-box__text{
+  font-size: 2em;
+    }
+.text{
+  font-size: 0.6em;
+    }
+.social a{
+    width: 25px;
+    height: 25px;
+    margin-left: 0.5rem;
+    margin-right: 0;
+    }
+    .search-hover{
+        width: 100%;
+        height: auto;
+    }
+    .img-box{
+        width: 90%;
+    }
+    .content-box{
+        width: 90%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+}

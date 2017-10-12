@@ -1,0 +1,22 @@
+.footer{
+    margin: 0 auto;
+    margin-top:  4rem;
+}
+.footer__head{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 2rem;
+    font-size: 2em;
+    text-align: center;
+}
+.footer__social{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__bottom{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    line-height: 1.5;
+}
