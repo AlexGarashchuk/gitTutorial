@@ -1,12 +1,68 @@
-.content-page2{
-    padding-top: 10rem;
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:300,300i,400,500,600,700,900,900i');
+input{
+    width: 50px;
+    height: 50px;
+}
+.wrapper-page2>.header{
+    padding-bottom: 235px;
 }
 .image-box{
     display: flex;
     justify-content: center;
 }
 .content-box-second__border{
-    width: 50%;
+    padding: 110px 0 60px 0;
+}
+.content-box-second__border>text{
+    border:none;
+}
+.content-page2{
+    max-width: 1340px;
     margin: 0 auto;
-    padding-top: 2rem;
+    border:1px solid #000;
+}
+.content-page2>.text{
+    border-top: none;
+    border-bottom: 1px solid #c1c1c1;
+    margin: 0;
+    padding-bottom: 75px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    font-size: 37px;
+    font-family: 'Montserrat' sans-serif;
+}
+.code{
+    font-size: 32px;
+    font-family: 'Montserrat' sans-serif;
+    padding-top: 140px;
+}
+.code__text{
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+.code__vagner{
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    color: #818181;
+}
+.chek-box{
+    font-size: 43px;
+    font-family: 'droid serif' serif;
+}
+.chek-box_one{
+    border-bottom: 1px solid #c1c1c1;
+    padding: 100px 0 30px 0;
+}
+.chek-box_thwo{
+    border-bottom: 1px solid #c1c1c1;
+    padding: 30px 0;
+}
+.chek-box_three{
+     padding: 30px 0;
 }
