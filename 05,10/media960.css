@@ -9,7 +9,7 @@
    height: auto;
     margin: 0;
     }
-    .header{
+    .header-bottom{
         padding-top: 134px;
     }
 .content{
@@ -28,7 +28,7 @@
         padding: 1rem;
         text-align: center;
     }
-    .content-box__text{
+    .content-box__description{
         font-size: 1em;
         width: 90%;
     }
@@ -38,7 +38,8 @@
     .content-box__link-two{
         font-size: 0.7em;
     }
-    .text{
+    .bottom-box{
+        max-height: 50px;
         font-size: 0.6em;
     }
     .social a{
@@ -51,12 +52,6 @@
         width: 100%;
         height: auto;
     }
-    /*.img-box{
-        max-width: 880px;
-        height: auto;
-        width: 90%;
-        margin-top: 0;
-    }*/
     .img-box__wrapper{
         position: relative;
         height: auto;
@@ -71,20 +66,17 @@
         margin: 0;
         padding: 0;
     }
-    .text{
-        max-height: 50px;
-    }
     .hover_hashtag{
         padding-top: 10rem;
         font-size: 1em;
     }
-    .hover_text{
+    .hover_description{
         font-size: 2em;
     }
     .footer-social__wrapper{
         padding-top: 5rem;
     }
-    .hidden{
+    .hidden-wrap{
         max-width: 80%;
         font-size: 1em;
     }
@@ -99,12 +91,15 @@
         width: 90%;
         height: auto;
     }
+    .code{
+        padding-top: 10px;
+    }
     .code__vagner{
         font-size:0.6em;
         padding: 0.5em;
-
     }
-    
-
+    input{
+        width: 30px;height: 30px;
+    }
 
 }

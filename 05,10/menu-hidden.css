@@ -1,4 +1,4 @@
-.hidden{
+.hidden-wrap{
     z-index: 999;
     display: none;*/
     position: absolute;
@@ -14,10 +14,10 @@
     height: 80%;
     margin: auto;
 }
-.hidden__text_hello{
+.hidden-menu_description__hello{
     padding-top: 40%;
 }
-.hidden__text_center{
+.hidden-menu_description__center{
     padding-top:2rem;
 }
 .hidden__list{
