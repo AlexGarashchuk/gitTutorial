@@ -4,15 +4,18 @@
    width: 100%;
    height: auto;
     }
-.wrapper{
+    .wrapper{
    width: 98%;
    height: auto;
     margin: 0;
     }
-    .header-bottom{
-        padding-top: 134px;
+    .header-top{
+        padding: 0;
     }
-.content{
+    .header-bottom{
+        padding-top: 50px;
+    }
+    .content{
    width: 98%;
    height: auto;
    justify-content: center;
@@ -52,6 +55,9 @@
         width: 100%;
         height: auto;
     }
+    .img-box{
+        padding: 0;
+    }
     .img-box__wrapper{
         position: relative;
         height: auto;
@@ -81,13 +87,17 @@
         font-size: 1em;
     }
     .footer{
-        margin-bottom: 250px;
+        margin-bottom: 50px;
         padding: 1rem;
+    }
+    .footer__bottom{
+        margin: 20px;
     }
     .content-page2{
         width: 90%;
     }
     .content-box-second__border{
+        margin: 0 auto;
         width: 90%;
         height: auto;
     }
@@ -98,8 +108,11 @@
         font-size:0.6em;
         padding: 0.5em;
     }
-    input{
-        width: 30px;height: 30px;
+    .nav{
+        padding-top: 2rem;
+    }
+    .chek-box{
+        font-size: 0.5em;
     }
 
 }

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700|EB+Garamond|Montserrat:400,500,500i,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
 input{
-    width: 40px;
-    height: 40px;
+    width: 2rem;
+    height: 2rem;
 }
 .wrapper-page2>.header-bottom{
-    padding-bottom: 235px;
+    padding-bottom: 14.7em;
 }
 .content-page2{
  
@@ -14,11 +14,8 @@ input{
     display: flex;
     margin: auto;
 }
-.img-box__wrapper{
-  
-}
 .content-box-second__border{
-    padding: 110px 0 60px 0;
+    padding: 6.88em 0 3.75em 0;
 }
 .content-box-second__border>bottom-box{
     border:none;
@@ -37,21 +34,22 @@ input{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 2.5em;
-    font-size: 1em;
+    padding-top:8.9rem;
+    font-size: 1.12em;
     font-family:sans-serif;
 }
 .code{
     font-family:sans-serif;
-    padding-top: 10rem;
-    font-size: 1.5em;
+    padding-top: 8rem;
+    font-size: 1.12em;
 }
 .code__text{
-    font-size: 1em;
+    font-size: 1.12em;
     padding-bottom: 10px;
     font-weight: 800;
 }
 .code__vagner{
+    word-wrap: break-word;
     border-top: 1px solid #c1c1c1;
     border-bottom: 1px solid #c1c1c1;
     padding: 1rem;
@@ -60,7 +58,7 @@ input{
     color: #818181;
 }
 .chek-box{
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: serif;
 }
 .chek-box_one{
