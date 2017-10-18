@@ -33,7 +33,7 @@ a{
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    background: url(img/strainer-or-magnifying-tool_icon-icons.com_74331.png);
+    background: url(img/magnifying-tool.png);
     background-size: contain;
     display: inline-block;
 }
@@ -55,7 +55,6 @@ a{
     text-align: center;
     padding-top: 215px;
 }
-
 .social a{
     display: inline-block;
     vertical-align: middle;
@@ -80,61 +79,61 @@ a{
     font-style: italic;
 }   
 .header-bottom>.social a{padding-left: 40px;}
-.s-dribbble{
-    background: url(img/social/glob.png);
+.s__dribbble{
+    background: url(img/social/dribbble.png);
 }
-.s-linkedin{
-    background: url(img/social/in.png);
+.s__linkedin{
+    background: url(img/social/linkedin.png);
 }
-.s-inst{
-    background: url(img/social/gl.png);
+.s__inst{
+    background: url(img/social/instagram.png);
 }
-.s-tw{
+.s__tw{
     background: url(img/social/tv.png);
 }
-.s-fb{
-    background: url(img/social/f.png);
+.s__fb{
+    background: url(img/social/facebook.png);
 }
-.s-email{
+.s__email{
     background: url(img/social/email.png);
 }
-.s-dribbble:hover{
-    background: url(img/social/globcol.png); 
+.s__dribbble:hover{
+    background: url(img/social/dribbblecolor.png); 
     transition:ease 0.5s;
     background-size: contain; 
     background-repeat: no-repeat;
     margin-right: 1rem;
 }
-.s-linkedin:hover{
-    background: url(img/social/incol.png);
+.s__linkedin:hover{
+    background: url(img/social/linkedincolor.png);
     transition:ease 0.5s;
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 1rem;
 }
-.s-inst:hover{
-    background: url(img/social/inscolor.png);
+.s__inst:hover{
+    background: url(img/social/instagramcolor.png);
     transition:ease 0.5s;
     background-size: contain; 
     background-repeat: no-repeat;
     margin-right: 1rem;
 }
-.s-tw:hover{
+.s__tw:hover{
     background: url(img/social/twcol.png);
     transition:ease 0.5s;
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 1rem;
 }
-.s-fb:hover{
-    background: url(img/social/fcol.png);
+.s__fb:hover{
+    background: url(img/social/facebookcolor.png);
     transition:ease 0.5s;
     background-size: contain; 
     background-repeat: no-repeat;
     margin-right: 1rem; 
 }
-.s-email:hover{
-    background: url(img/social/emcolor.png);
+.s__email:hover{
+    background: url(img/social/emailcolor.png);
     transition:ease 0.5s;
     background-size: contain; 
     background-repeat: no-repeat;
@@ -153,6 +152,7 @@ a{
     width: 90%;
     max-width: 610px;
     max-height: 965px;
+    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -166,7 +166,7 @@ a{
     width: 99%;
     height: 875px;
 }
-.img{
+.product{
     display: block;
     max-width: 100%;
     height: 100%;
@@ -185,7 +185,7 @@ a{
     font-size: 4em;
     font-style: italic;
 }
-.hover{
+.covent{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -194,7 +194,7 @@ a{
     background:rgba(37, 245, 179, 0.69);
     display: none;
 }
-.img-box__wrapper:hover .hover{
+.img-box__wrapper:hover .covent{
     display: block;
     border-radius: 10px;
 }

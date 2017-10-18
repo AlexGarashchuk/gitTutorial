@@ -23,6 +23,7 @@
     font-family: 'Droid Serif';
     font-size: 2.5em;
     padding: 2rem 0;
+    flex-wrap: wrap;
 }
 .content-box__link-first{
     text-decoration: none;
