@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700|EB+Garamond|Montserrat:400,500,500i,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
+.content-box{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+.content-box__wrapper{
+    height: auto;
+    text-align:left;
+    line-height: 1.3;
+}
+.content-box__description{
+    font-family: 'Droid Serif';
+    font-size: 1.3em;
+    padding: 2rem 0;
+}
+.content-box__link-first{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'liberation-sans',sans-serif;
+}
+.content-box__link-two{
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 1rem;
+    font-family: 'liberation-sans',sans-serif;
+}
