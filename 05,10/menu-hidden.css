@@ -1,24 +1,29 @@
-.hidden{
+.hidden-wrap{
     z-index: 999;
     display: none;*/
     position: absolute;
     font-size: 1.5em;
     background: #000;
     color: #a39c9c;
-    max-width: 610px;
+    max-width: 20%;
     height:3000px;
-    padding: 0 1rem;
+    padding: 1rem 0.5rem;
+    opacity: 0.95;
 }
 .hidden-menu{
-    width: 80%;
+    width: 60%;
     height: 80%;
     margin: auto;
 }
-.hidden__text_hello{
+.hidden-menu_description__hello{
     padding-top: 40%;
 }
-.hidden__text_center{
-    padding-top:2rem;
+.hidden-menu_description__center{
+    padding-top:10%;
+}
+.hidden-menu>.social{
+    display: flex;
+    justify-content: space-around;
 }
 .hidden__list{
     margin-top: 5rem;
@@ -47,7 +52,6 @@
     padding-top: 2rem;
     margin-bottom: 5rem;
 }
-
 .hidden__list a{
     line-height: 1.5;
     display: block;
@@ -56,27 +60,3 @@
     text-transform: capitalize;
     text-decoration: none;
 }
-/*.hidden__list_home{
-    display: block;
-    color: #fff;
-    font-size: 1.5em;
-    text-transform: capitalize;
-}
-.hidden__list_post{
-    display: block;
-    color: #fff;
-    font-size: 1.5em;
-    text-transform: capitalize;
-}
-.hidden__list_gallery{
-    display: block;
-    color: #fff;
-    font-size: 1.5em;  
-    text-transform: capitalize;
-}
-.hidden__list_contact{
-    display: block;
-    color: #fff;
-    font-size: 1.5em; 
-    text-transform: capitalize;
-}*/
