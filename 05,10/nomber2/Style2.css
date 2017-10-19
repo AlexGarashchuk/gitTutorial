@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700|EB+Garamond|Montserrat:400,500,500i,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a{
+    color:#16d598;
+}
+.cnt{
+    max-width: 100%;
+    max-height: 100%;
+    background: url(../img/fons.png);
+    font-family: Helvetica sans-serif;
+    font-size: 1em;
+}
+.wrapper{margin: 0 5.3583%;}/*160/2986*/
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+.header-search{
+    padding-top: 15px;
+    display: flex;
+    cursor: pointer;
+}
+.header-search__text{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.header-search__img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background: url(../img/strainer-or-magnifying-tool_icon-icons.com_74331.png);
+    background-size: contain;
+    display: inline-block;
+}
+.header-top__hamburger{
+    height: 0.9042%;/*27/2986*/
+    width: 40px;
+    float: left;
+    padding: 15px 0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.divide{
+    display: block;
+    height: 2px;
+    margin: 10px 0;
+    background: #000;
+}
+.header-bottom{
+    text-align: center;
+    padding-top: 5%;/*215/2986*100*/
+}
+.caption{
+    padding:2% 0 2.679% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.subtitle{
+    font-family: 'GEORGIA ITALIC', sans-serif;
+    font-weight: 100;
+    color: #7f7f7f;
+    font-size: 1em;
+    font-style: italic;
+}   
+.header-bottom>.social a{
+    padding-left: 10px;
+}
+.social a{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.2em;
+}
+.s__dribbble{
+    background: url(../img/social/dribbble.png);
+}
+.s__linkedin{
+    background: url(../img/social/linkedin.png);
+}
+.s__inst{
+    background: url(../img/social/instagram.png);
+}
+.s__tw{
+    background: url(../img/social/tv.png);
+}
+.s__fb{
+    background: url(../img/social/facebook.png);
+}
+.s__email{
+    background: url(../img/social/email.png);
+}
+.s__dribbble:hover{
+    background: url(../img/social/dribbblecolor.png); 
+    transition:ease 0.5s;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.s__linkedin:hover{
+    background: url(../img/social/linkedincolor.png);
+    transition:ease 0.5s;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.s__inst:hover{
+    background: url(../img/social/instagramcolor.png);
+    transition:ease 0.5s;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.s__tw:hover{
+    background: url(../img/social/twcol.png);
+    transition:ease 0.5s;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.s__fb:hover{
+    background: url(../img/social/facebookcolor.png);
+    transition:ease 0.5s;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.s__email:hover{
+    background: url(../img/social/emailcolor.png);
+    transition:ease 0.5s;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+.content{
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin: 0;
+    padding-top: 8.1146%;/*235/2986*/
+}
+.first-row{
+    display: flex;
+}
+.first-row:last-child{
+    padding: 0;
+}
+.second-row{
+    display: flex;
+}
+.three-row{
+    display: flex;
+}
+.img-box{
+    position: relative;
+    z-index: 0;
+    max-width: 100%;
+    width: 22%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    background-size: contain;
+    padding-right: 20px;
+}
+.img-box__wrapper{
+    position: relative;
+    width: 99%;
+    height: auto;
+}
+.product{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+}
+.hover_hashtag{
+    color: #fff;
+    padding: 50% 0 5% 0;
+    text-align: center;
+    font-family: 'GEORGIA ITALIC', serif;
+    font-size: 0.7em;
+}
+.hover_description{
+    color: #fff;
+    text-align: center;
+    font-family: 'Droid Serif';
+    font-size: 2em;
+    font-style: italic;
+}
+.covent{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background:rgba(37, 245, 179, 0.69);
+    display: none;
+}
+.img-box__wrapper:hover .covent{
+    display: block;
+}
+.bottom-box{
+    width:99%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    border-top: 5px solid #c1c1c1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
