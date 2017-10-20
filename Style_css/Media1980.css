@@ -1,13 +1,13 @@
 @media(max-width:960px)
 {
     .cnt{
-   width: 100%;
-   height: auto;
+        width: 100%;
+        height: auto;
     }
     .wrapper{
-   width: 98%;
-   height: auto;
-    margin: 0;
+        width: 98%;
+        height: auto;
+        margin: 0;
     }
     .header-top{
         padding: 0;
@@ -16,15 +16,15 @@
         padding-top: 50px;
     }
     .content{
-   width: 98%;
-   height: auto;
-   justify-content: center;
-    padding-top: 3rem;
+        width: 98%;
+        height: auto;
+        justify-content: center;
+        padding-top: 3rem;
     }
     .caption{
-      font-size: 1.5em;
-      letter-spacing: 0.2em;
-      padding: 2em 0;
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
+        padding: 2em 0;
     }
     .subtitle{
         font-size: 0.7em;
@@ -46,10 +46,10 @@
         font-size: 0.6em;
     }
     .social a{
-    width: 25px;
-    height: 25px;
-    margin-left: 0.5rem;
-    margin-right: 0;
+        width: 25px;
+        height: 25px;
+        margin-left: 0.5rem;
+        margin-right: 0;
     }
     .search-hover{
         width: 100%;
