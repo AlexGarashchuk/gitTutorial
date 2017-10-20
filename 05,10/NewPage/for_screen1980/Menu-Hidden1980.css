@@ -1,6 +1,6 @@
 .hidden-wrap{
     z-index: 999;
-    /*display: none;*/
+    display: none;*/
     position: absolute;
     font-size: 1em;
     background: #000;
